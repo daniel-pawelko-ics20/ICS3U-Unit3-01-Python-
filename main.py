@@ -7,10 +7,18 @@
 
 def main():
     # This function input 2 numbers and output sum
+
+    # input
     first = int(input("Enter first number: "))
     second = int(input("Enter second number: "))
 
-    print(f"{first} + {second} = {first+second}")
+    # process
+    process = first + second
+
+    # output
+    print(f"{first} + {second} = {process}")
+    print("")
+    print("Done.")
 
 
 if __name__ == "__main__":
